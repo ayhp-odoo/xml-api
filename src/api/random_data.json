@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "email": "leanne@example.com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "email": "ervin@example.com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "email": "clemente@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "email": "patricia@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "email": "chelsry@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "email": "dennis@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "email": "kurtis@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "email": "nicholas@example.com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "email": "glenna@example,com",
+    "phone": "892731723812"
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "email": "clementina@example,com",
+    "phone": "892731723812"
+  }
+]
