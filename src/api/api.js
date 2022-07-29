@@ -12,14 +12,14 @@ router.get('/', (req, res) => {
 });
 
 router.get('/json', (req,res) => {
-  //const x = Math.floor(Math.random() * 5)
+  const x = Math.floor(Math.random() * 5)
   const i = Math.floor(Math.random() * 10)
-  //if(x == 3 || x ==5) {
-    //res.status(500).json({
-      //"message": "SOmething went wrong please retry"
-    //})
-    //return
-  //}
+  if(x == 3 || x ==5) {
+    res.status(500).json({
+      "message": "SOmething went wrong please retry"
+    })
+    return
+  }
   res.status(200).json({
     "contact": data.find(obj => obj.id == i)
   })
@@ -28,6 +28,21 @@ router.get('/json', (req,res) => {
 router.get('/json-all',(req,res) => {
   res.status(200).json({
    data
+  })
+})
+
+router.get('/delay',(req,res) => {
+  const delay = Math.floor(Math.random() * 5)
+  if(delay != 1) {
+    setTimeout(() =>{
+      res.status(200).json({
+       "message": "hello"
+      })
+    }, 10000)
+    return
+  }
+  res.status(200).json({
+    'message': "no hubo delay"
   })
 })
 
